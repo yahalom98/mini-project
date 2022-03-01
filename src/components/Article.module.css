@@ -1,0 +1,21 @@
+.article,
+.details {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnail {
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 6px;
+  width: 150px;
+  height: 150px;
+  background-color: var(--divider);
+  border: none;
+  outline: none;
+}

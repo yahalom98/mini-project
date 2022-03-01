@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  font-size: 6rem;
+  position: relative;
+  border: 0;
+  outline: none;
+  min-width: 0;
+  text-align: center;
+  align-self: stretch;
+  color: var(--text);
+  background-color: var(--background);
+}
+
+.input::placeholder {
+  color: var(--text-hint);
+}
